@@ -11,7 +11,7 @@ locations = [
         "lat": 15.1010826580672,
         "lng": 98.7940648371254,
         "description": "ดินแดนแห่งผืนป่าตะวันตกอันอุดมสมบูรณ์ ไฮไลท์คือสะพานไม้อุตตมานุสรณ์ และจุดชมวิวป้อมปี่ที่สามารถมองเห็นวิวพระอาทิตย์ตกดินเหนืออ่างเก็บน้ำเขื่อนวชิราลงกรณได้อย่างสวยงามตระการตา",
-        "image_url": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=600&q=80"
+        "image_url": "https://www.wowtgt.com/images/content/original-1619407839383.png"
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@ locations = [
         "lat": 14.508931824691606,
         "lng": 98.98357900494995,
         "description": "อุทยานประวัติศาสตร์และธรรมชาติ เลื่องชื่อจาก 'น้ำตกไทรโยคใหญ่' ที่ไหลดิ่งลงสู่แม่น้ำแควแควน้อยอย่างมีเอกลักษณ์ เหมาะสำหรับการล่องแพเปียก สัมผัสอากาศบริสุทธิ์และไอเย็นจากสายน้ำ",
-        "image_url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=600&q=80"
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMiy7oi-A_AQT0c4eZhFoyYFP5qLaJZkTzRGBwxhROgdWgbNSre9Fb2lKb&s=10"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@ locations = [
         "lat": 14.426487828764621,
         "lng": 99.28295643143015,
         "description": "ผืนป่าอนุรักษ์ขนาดใหญ่ที่เป็นต้นกำเนิดของน้ำตกเอราวัณ รายล้อมด้วยเส้นทางศึกษาธรรมชาติที่สมบูรณ์ มีจุดเด่นด้านความหลากหลายทางชีวภาพและทัศนียภาพของป่าเบญจพรรณ",
-        "image_url": "https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=600&q=80"
+        "image_url": "https://www.tourplanet.club/photo/webboards/1686885942_1d26516d0-8235-11eb-90b4-f7e5c08512ab_original.jpg"
     },
     {
         "id": 4,
@@ -35,7 +35,7 @@ locations = [
         "lat": 14.412508671129645,
         "lng": 99.14583856749876,
         "description": "เขื่อนอเนกประสงค์ขนาดใหญ่บนแควใหญ่ วิวทิวทัศน์รอบอ่างเก็บน้ำโอบล้อมด้วยขุนเขา มีจุดชมวิวสันเขื่อนที่กว้างขวาง เหมาะแก่การมาพักผ่อนหย่อนใจและชมทัศนียภาพมุมสูง",
-        "image_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&q=80"
+        "image_url": "https://s359.kapook.com/pagebuilder/dfe59f39-beb1-4ff9-8312-4860d2f77af7.jpg"
     },
     {
         "id": 5,
@@ -43,7 +43,7 @@ locations = [
         "lat": 14.36289162990611,
         "lng": 99.1502339099092,
         "description": "น้ำตกหินปูนชื่อดังที่มีความยาวถึง 7 ชั้น โดดเด่นด้วยน้ำสีเขียวมรกตใสสะอาดจนเห็นตัวปลา โดยเฉพาะชั้นที่ 7 ที่มีลักษณะคล้ายหัวช้างเอราวัณสามเศียร ซึ่งเป็นที่มาของชื่อน้ำตก",
-        "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80"
+        "image_url": "https://paapaii.com/wp-content/uploads/2017/04/Erawan-waterfall-1.jpg"
     }
 ]
 
@@ -80,4 +80,4 @@ def index():
     return render_template('index.html', locations=locations, map_html=map_html)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5005)
